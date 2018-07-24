@@ -1,0 +1,109 @@
+Idea:-
+Auto Tagging system
+
+Example :- (Auto tagging system)
+Denormalize database using sql
+
+#mysql #sql
+
+
+Uses of natural language processing (basically done on text data)
+1) sentiment analysis
+2) auto tagging text,
+3) spam detection
+4) identetying themes from text
+5) tokenizitation
+6) auto summaring text
+7) classifting text
+
+Steps in NLP
+1) Tokenization (breakdown text into words and sentences) ->
+2) Stopword Removal(filtering out common words) ->
+3) N-Grams(Identify commonly occuring groups of words) ->
+   Example ;-
+   N-Grams:- (In the sentence below New York is twice so its Bigrams :))
+   New York is a great city.Have you ever been to New York
+4) Word Sense Disambiguation :- (identify meaning of word based on context the word is used in)
+   Example :- (the these two sentences below, meaning of cool is different)
+       The movie had really cool effects.
+       I will have glass of cool water
+5) Parts of speech tagging:- (like identifying noun very adj in sentence)
+
+6) Stemming :-Example:- words like
+    Close
+    Closed
+    Closely
+    if we want to treat the words the same , we can use stemming technique to use the root
+    of the words , clo in this example
+
+
+TYPES OF ML PROBLEMS
+1) classification: spam detections, generes
+   classfiers are the algorithims
+   classification is known ahead of time (like spam or ham)
+   algo examples:- Naive Bayes or support vector machine
+
+2) Clustering:-  devide article into groups.
+                 groups are unknown at start
+                 didnt know this existed
+                 Explore data, patterns
+
+                 algorithims examples:- k means, hierarchical clustering
+3) Recommendations
+4) regressions:-
+
+ --=================================
+
+ Typical ML Workflow:-
+
+1) Pick your problem (identify which type of problem we need to
+   solve)
+2) Represent Data:- Represent data using numeric attributes
+   Numeric attributes :-  text to numeric - features
+   example;- term frequency
+             tf-idf
+3) Apply an algorithim:- (use a standard algo to find a model)
+   a mathematical equation
+   rules
+
+#Project 1:- Auto summarize text (using rule base approach)
+1) find most important words in text (words that occur more frequently)
+2) compute a significance score for sentences based on words they contain
+   (sum of importance of all the words in that sentence)
+3) pick the most signifcance sentences
+4)
+
+
+#Project 2: classification using clustering
+feature extraction using the bag of words model (numeric attributes)
+k means clustering
+k near by
+
+#extracting meaningful numeric attributes to represent text is called feature extraction
+some of methods of feature extraction are
+1) Term frequency :- Bag of words model.
+   frequency (0,1) of a word appearing in bag of words
+   *** order is lost
+
+
+2) TF_IDF:- (Inverse document frequency) :- weight the term frequencies to take
+            the rarity of a word into account
+
+            weight  = 1 / number of documents the word apprears in
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
